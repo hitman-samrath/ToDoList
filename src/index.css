@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: rgb(170, 210, 245); */
+    /* background-color: teal; */
+    background-image: url('https://media.istockphoto.com/photos/to-do-list-text-on-notepad-picture-id1285308242?b=1&k=20&m=1285308242&s=170667a&w=0&h=K-UO77yYEQAKjRNLhgXADlyRIqrPkB8sC-4mKcyMgC4=');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    flex-direction: column;
+    /* row */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center-div {
+    width: 35%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 5px 5px 25px -5px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: teal;
+    margin-top: 10px;
+    padding: 5px 0;
+    box-shadow: 5px 5px 15px -5px;
+}
+
+input {
+    font-size: 18px;
+    width: 60%;
+    background: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid teal;
+    outline: none;
+}
+
+.addb {
+    font-size: 28px;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(151, 146, 140);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px -5px rgb(0, 0, 0, 0.3);
+}
+
+.addb:hover {
+    background-color: rgb(8, 184, 31);
+}
+
+.listdiv {
+    display: flex;
+}
+
+.deleteb {
+    margin: 6px 0px;
+    padding: 0px 5px;
+    color: white;
+    background-color: rgb(180, 179, 177);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.deleteb:hover {
+    background-color: rgb(235, 53, 53);
+}
+
+ol {
+    margin: 20px 15px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+    margin: 4px 5px;
+    text-transform: capitalize;
+}
+
+@media(max-width:1000px) {
+    .center-div {
+        width: 40%;
+    }
+}
+
+@media(max-width:850px) {
+    .center-div {
+        width: 45%;
+    }
+}
+
+@media(max-width:800px) {
+    .center-div {
+        width: 50%;
+    }
+}
+
+@media(max-width:700px) {
+    .center-div {
+        width: 60%;
+    }
+}
+
+@media(max-width:550px) {
+    .center-div {
+        width: 70%;
+    }
+}
+
+@media(max-width:450px) {
+    .center-div {
+        width: 80%;
+        height: 85%
+    }
+}
+
+@media(max-width:400px) {
+    .center-div {
+        width: 90%;
+    }
+}
